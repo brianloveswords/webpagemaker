@@ -31,7 +31,7 @@ ALLOWED_ATTRS = {
     "link": ["href", "rel", "type"],
     "object": ["height", "width"],
     "param": ["name", "value"],
-    "embed": ["src", "type", "width", "height", "allowfullscreen", "flashvars"]
+    "embed": ["src", "type", "width", "height", "allowfullscreen", "allowscriptaccess", "flashvars"]
 }
 
 if bleach.VERSION < (1, 1, 1):
