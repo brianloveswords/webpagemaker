@@ -28,7 +28,10 @@ ALLOWED_ATTRS = {
     "a": ["href"],
     "base": ["href"],
     "iframe": ["src", "width", "height", "frameborder", "allowfullscreen"],
-    "link": ["href", "rel", "type"]
+    "link": ["href", "rel", "type"],
+    "object": ["height", "width"],
+    "param": ["name", "value"],
+    "embed": ["src", "type", "width", "height", "allowfullscreen", "flashvars"]
 }
 
 if bleach.VERSION < (1, 1, 1):
